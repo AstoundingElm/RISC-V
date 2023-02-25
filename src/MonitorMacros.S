@@ -1,0 +1,8 @@
+
+
+.macro MonitorA0A1RAPCm
+	push ra
+		mv a6,ra
+		jal MonitorA0A1RAPC
+	pop ra
+.end_macro
